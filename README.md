@@ -4,7 +4,7 @@ Color palettes inspired by US National Parks.
 Structure of the package was based on code from the [`MetBrewer`](https://github.com/BlakeRMills/MetBrewer) package. 
 
 For requests, questions, comments, concerns, etc. you can reach out to me at:<br />
-My Website: [here](https://www.kevinsblake.com)<br /> Twitter: [here](https://twitter.com/kevinsblake)<br /> LinkedIn: [here](https://www.linkedin.com/in/kevinsblake/) <br />Email: kevinsblake@gmail.com
+My Website: [HERE](https://www.kevinsblake.com)<br /> Twitter: [HERE](https://twitter.com/kevinsblake)<br /> LinkedIn: [HERE](https://www.linkedin.com/in/kevinsblake/) <br />E-mail: kevinsblake@gmail.com
 
 # Content
 [Installation](#install-package)
@@ -21,6 +21,14 @@ Currently, NatParksPalettes is only able to download through GitHub.
 install.packages("devtools")
 devtools::install_github("kevinsblake/NatParksPalettes")
 ```
+## Usage
+```r
+library(NatParksPalettes
+
+names(NatParksPalettes)
+ [1] "Acadia"      "Arches"      "Arches2"     "Banff"       "BryceCanyon" "DeathValley" "Everglades"  "Glacier"    
+ [9] "GrandCanyon" "KingsCanyon" "Olympic"     "Redwood"     "SmokyMtns"   "Yellowstone" "Yosemite"
+```
 
 ## Palettes
 
@@ -29,84 +37,84 @@ devtools::install_github("kevinsblake/NatParksPalettes")
 
 ### Acadia
 ![Acadia](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/Acadia.png)
-- Bass Harbor Head Lighthouse on Mount Desert Island, Jon Bilous, Dreamstime, [Link](https://kids.nationalgeographic.com/nature/article/acadia)
+- Bass Harbor Head Lighthouse on Mount Desert Island, Jon Bilous, Dreamstime, [LINK](https://kids.nationalgeographic.com/nature/article/acadia)
 -  Colorblind-Friendly
 ***
 
 ### Arches
 ![Arches](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/Arches.png)
-- Delicate Arch with the La Sal Mountains in the background, Depositphotos, [Link](https://www.myutahparks.com/parks/arches-national-park/)
+- Delicate Arch with the La Sal Mountains in the background, Depositphotos, [LINK](https://www.myutahparks.com/parks/arches-national-park/)
 -  Colorblind-Friendly
 ***
 
 ### Arches2
 ![Arches2](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/Arches2.png)
-- Delicate Arch evening, Lavish Singal [Link](http://sharetheexperience.org/entry/36171904-Arches%20National%20Park)
+- Delicate Arch evening, Lavish Singal [LINK](http://sharetheexperience.org/entry/36171904-Arches%20National%20Park)
 -  Colorblind-Friendly
 ***
 
 ### Banff
 ![Banff](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/Banff.png)
-- Moraine Lake, Andy Holmes, [Link](https://unsplash.com/photos/XZ8AiqUcbD8)
+- Moraine Lake, Andy Holmes, [LINK](https://unsplash.com/photos/XZ8AiqUcbD8)
 ***
 
 ### BryceCanyon
 ![BryceCanyon](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/BryceCanyon.png)
-- Sunrise Point, [Link](https://www.brycecanyoncountry.com/bryce-canyon-history/)
+- Sunrise Point, [LINK](https://www.brycecanyoncountry.com/bryce-canyon-history/)
 -  Colorblind-Friendly
 ***
 
 ### DeathValley
 ![DeathValley](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/DeathValley.png)
-- Mesquite Flat Sand Dunes, [Link](https://travelnevada.com/parks-recreational-areas/death-valley-national-park/)
+- Mesquite Flat Sand Dunes, [LINK](https://travelnevada.com/parks-recreational-areas/death-valley-national-park/)
 -  Colorblind-Friendly
 ***
 
 ### Everglades
 ![Everglades](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/Everglades.png)
-- Aerial view, Getty Images, [Link]()
+- Aerial view, Getty Images, [LINK](https://www.tripsavvy.com/everglades-national-park-guide-5186198)
 ***
 
 ### Glacier
 ![Glacier](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/Glacier.png)
-- Inside an ice cave with blue ice, Kevin Haney, NPS, [Link](https://www.nationalgeographic.com/travel/article/more-than-a-quarter-of-this-national-park-is-covered-in-glaciers)
+- Inside an ice cave with blue ice, Kevin Haney, NPS, [LINK](https://www.nationalgeographic.com/travel/article/more-than-a-quarter-of-this-national-park-is-covered-in-glaciers)
 -  Colorblind-Friendly
 ***
 
 ### GrandCanyon
 ![GrandCanyon](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/GrandCanyon.png)
-- Toroweap point at sunrise, Sumiko Scott, Shutterstock, [Link]()
+- Toroweap point at sunrise, Sumiko Scott, Shutterstock, [LINK](https://www.nationalparks.org/connect/explore-parks/grand-canyon-national-park)
 ***
 
 ### KingsCanyon
 ![KingsCanyon](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/KingsCanyon.png)
-- Karla Rivera, [Link](http://sharetheexperience.org/entry/35660608-Sequoia%20and%20Kings%20Canyon%20National%20Parks)
+- Karla Rivera, [LINK](http://sharetheexperience.org/entry/35660608-Sequoia%20and%20Kings%20Canyon%20National%20Parks)
 -  Colorblind-Friendly
 ***
 
 ### Olympic
 ![Olympic](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/Olympic.png)
-- Sol Duc, Scott Malagold, [Link](http://sharetheexperience.org/entry/35701870-Olympic%20National%20Park)
+- Sol Duc, Scott Malagold, [LINK](http://sharetheexperience.org/entry/35701870-Olympic%20National%20Park)
 ***
 
 ### Redwood
 ![Redwood](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/Redwood.png)
-- Boy Scout Tree Trail, Lana Law, [Link](https://www.planetware.com/california/best-hikes-in-redwood-national-and-state-parks-us-ca-268.htm)
+- Boy Scout Tree Trail, Lana Law, [LINK](https://www.planetware.com/california/best-hikes-in-redwood-national-and-state-parks-us-ca-268.htm)
 ***
 
 ### SmokyMtns
 ![SmokyMtns](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/SmokyMtns.png)
--  Little River Road heading to Cades Cove, Norman Lathrop, [Link](http://sharetheexperience.org/entry/35799330-Great%20Smoky%20Mountains%20National%20Park)
+-  Little River Road heading to Cades Cove, Norman Lathrop, [LINK](http://sharetheexperience.org/entry/35799330-Great%20Smoky%20Mountains%20National%20Park)
 ***
 
 ### Yellowstone
 ![Yellowstone](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/Yellowstone.png)
-- Grand Prismatic Spring at Yellowstone’s Midway Geyser Basin, Grant Ordelheide, [Link]()
+- Grand Prismatic Spring at Yellowstone’s Midway Geyser Basin, Grant Ordelheide, [LINK](https://www.yellowstonepark.com/things-to-do/geysers-hot-springs/grand-prismatic-midway-geyser-basin/)
 ***
 
 ### Yosemite
 ![Yosemite](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/Yosemite.png)
-- Yosemite Valley, Leanne Harjer, [Link]()
+- Yosemite Valley, Leanne Harjer, [LINK](https://sierranevadageotourism.org/entries/yosemite-national-park/d0909735-d86e-436b-9ea3-b979d218e29f)
 ***
 
 ## Functions
