@@ -1,7 +1,7 @@
-# NatParksPalettes <img align="right" src="https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/hex/hex.png" width=300>
+# National Parks Palettes <img align="right" src="https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/hex/hex.png" width=300>
 Color palettes inspired by US National Parks.
 
-Structure of the package was based on code from the [`MetBrewer`](https://github.com/BlakeRMills/MetBrewer) and [`PNWColors`](https://github.com/jakelawlor/PNWColors) packages. 
+Structure of the package was based on code from the [`MetBrewer`](https://github.com/BlakeRMills/MetBrewer) package. 
 
 For requests, questions, comments, concerns, etc. fyou can reach out to me:<br />
 My Website: [here](https://www.kevinsblake.com)<br /> Twitter: [here](https://twitter.com/kevinsblake)<br /> LinkedIn: [here](https://www.linkedin.com/in/kevinsblake/) <br />Email: kevinsblake@gmail.com
