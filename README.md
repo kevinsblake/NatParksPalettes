@@ -23,7 +23,7 @@ devtools::install_github("kevinsblake/NatParksPalettes")
 ```
 ## Usage
 ```r
-library(NatParksPalettes
+library(NatParksPalettes)
 
 names(NatParksPalettes)
  [1] "Acadia"      "Arches"      "Arches2"     "Banff"       "BryceCanyon" "DeathValley" "Everglades"  "Glacier"    
