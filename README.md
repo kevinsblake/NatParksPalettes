@@ -3,7 +3,7 @@ Color palettes inspired by US National Parks.
 
 Structure of the package was based on code from the [`MetBrewer`](https://github.com/BlakeRMills/MetBrewer) package. 
 
-For requests, questions, comments, concerns, etc. fyou can reach out to me:<br />
+For requests, questions, comments, concerns, etc. you can reach out to me:<br />
 My Website: [here](https://www.kevinsblake.com)<br /> Twitter: [here](https://twitter.com/kevinsblake)<br /> LinkedIn: [here](https://www.linkedin.com/in/kevinsblake/) <br />Email: kevinsblake@gmail.com
 
 # Content
