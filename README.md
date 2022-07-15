@@ -117,7 +117,7 @@ natparks.pals(name="DeathValley",n=7,type="discrete")
 ![Ex1](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/examples/example_01.png)
 
 ```r
-natparks.pals("Acadia", 5)
+natparks.pals("Yellowstone", 5)
 ```
 ![Ex2](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/examples/example_02.png)
 
