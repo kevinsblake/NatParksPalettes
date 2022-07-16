@@ -1,5 +1,5 @@
 # National Parks Palettes <img align="right" src="https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/hex/hex.png" width=300>
-Color palettes inspired by US National Parks.
+Color palettes inspired by National Parks.
 
 Structure of this package is based on code from the [`MetBrewer`](https://github.com/BlakeRMills/MetBrewer) package. 
 
