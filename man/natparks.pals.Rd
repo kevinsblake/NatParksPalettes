@@ -34,7 +34,7 @@ colors are selected in sequential order from the full palette instead. Default i
 A vector of colors.
 }
 \description{
-Color palettes inspired by the US National Parks. Complete list of palette colors and the parks that 
+Color palettes inspired by National Parks. Complete list of palette colors and the parks that 
 inspired them can be found \href{https://github.com/kevinsblake/NatParksPalettes}{on Github}.
 Use \code{\link{colorblind.friendly}} to check whether palettes are colorblind-friendly.
 }
