@@ -20,6 +20,9 @@ colors are selected in sequential order from the full palette instead. Default i
 
 \item{...}{Other arguments passed on to \code{\link[ggplot2]{discrete_scale}}}
 }
+\value{
+A function that returns a discrete color scale.
+}
 \description{
 Function for using \code{NatParksPalettes} colors schemes in \code{ggplot2}. Use \code{\link{scale_color_natparks_d}} and \code{\link{scale_fill_natparks_d}}
 for discrete scales and \code{\link{scale_color_natparks_c}} and \code{\link{scale_fill_natparks_c}} for continuous scales.
@@ -28,5 +31,5 @@ for discrete scales and \code{\link{scale_color_natparks_c}} and \code{\link{sca
 library(ggplot2)
 ggplot(data=iris, aes(x=Species, y=Sepal.Length, fill=Species)) +
 geom_violin() +
-scale_fill_natparks_d("Lakota")
+scale_fill_natparks_d("KingsCanyon")
 }

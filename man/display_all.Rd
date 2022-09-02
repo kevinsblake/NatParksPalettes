@@ -25,6 +25,9 @@ display_all(
 that colors are not always selected in sequential order from the full palette. If override.order is set to TRUE,
 colors are selected in sequential order from the full palette instead. Default is FALSE.}
 }
+\value{
+Plot of all color palettes available
+}
 \description{
 Function for viewing all palettes available in NatParksPalettes.
 }
