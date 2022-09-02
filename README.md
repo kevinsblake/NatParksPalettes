@@ -1,10 +1,10 @@
 # National Parks Palettes <img align="right" src="https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/hex/hex.png" width=300>
 Color palettes inspired by National Parks.
 
-Structure of this package is based on code from the [`MetBrewer`](https://github.com/BlakeRMills/MetBrewer) package. 
+Structure of this package is based on code from the [`MetBrewer`](https://github.com/BlakeRMills/MetBrewer) package. For more National Parks inspired palettes, see the [`nationalparkcolors`](https://github.com/katiejolly/nationalparkcolors) package.
 
 For requests, questions, comments, concerns, etc. you can reach out to me at:<br />
-My Website: [HERE](https://www.kevinsblake.com)<br /> Twitter: [HERE](https://twitter.com/kevinsblake)<br /> LinkedIn: [HERE](https://www.linkedin.com/in/kevinsblake/) <br />E-mail: kevinsblake@gmail.com
+My Website: [HERE](https://kevinsblake.com/)<br /> Twitter: [HERE](https://twitter.com/kevinsblake/)<br /> LinkedIn: [HERE](https://www.linkedin.com/in/kevinsblake/) <br />E-mail: kevinsblake@gmail.com
 
 # Content
 [Installation](#install-package)
@@ -16,11 +16,18 @@ My Website: [HERE](https://www.kevinsblake.com)<br /> Twitter: [HERE](https://tw
 [Colorblind Checking](#colorblind-friendly-checking)
 
 ## Install Package
-Currently, NatParksPalettes is only able to download through GitHub.
+### R
+NatParksPalettes is on CRAN and able to be downloaded in R.
+```r
+install.packages("NatParksPalettes")
+```
+### GitHub
+You can also download through GitHub.
 ```r
 install.packages("devtools")
 devtools::install_github("kevinsblake/NatParksPalettes")
 ```
+
 ## Usage
 ```r
 library(NatParksPalettes)
@@ -37,7 +44,7 @@ names(NatParksPalettes)
 
 ### Acadia
 ![Acadia](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/Acadia.png)
-- Bass Harbor Head Lighthouse on Mount Desert Island, Jon Bilous, Dreamstime, [LINK](https://kids.nationalgeographic.com/nature/article/acadia)
+- Bass Harbor Head Lighthouse on Mount Desert Island, Jon Bilous, Dreamstime, [LINK](https://kids.nationalgeographic.com/nature/article/acadia/)
 -  Colorblind-Friendly
 ***
 
@@ -49,7 +56,7 @@ names(NatParksPalettes)
 
 ### Arches2
 ![Arches2](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/Arches2.png)
-- Delicate Arch evening, Lavish Singal [LINK](http://sharetheexperience.org/entry/36171904-Arches%20National%20Park)
+- Delicate Arch evening, Lavish Singal [LINK](https://www.sharetheexperience.org/entry/36171904-Arches%20National%20Park)
 -  Colorblind-Friendly
 ***
 
@@ -83,18 +90,18 @@ names(NatParksPalettes)
 
 ### GrandCanyon
 ![GrandCanyon](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/GrandCanyon.png)
-- Toroweap point at sunrise, Sumiko Scott, Shutterstock, [LINK](https://www.nationalparks.org/connect/explore-parks/grand-canyon-national-park)
+- Toroweap point at sunrise, Sumiko Scott, Shutterstock, [LINK](https://www.nationalparks.org/explore/parks/grand-canyon-national-park)
 ***
 
 ### KingsCanyon
 ![KingsCanyon](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/KingsCanyon.png)
-- Karla Rivera, [LINK](http://sharetheexperience.org/entry/35660608-Sequoia%20and%20Kings%20Canyon%20National%20Parks)
+- Karla Rivera, [LINK](https://sharetheexperience.org/entry/35660608-Sequoia%20and%20Kings%20Canyon%20National%20Parks)
 -  Colorblind-Friendly
 ***
 
 ### Olympic
 ![Olympic](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/Olympic.png)
-- Sol Duc, Scott Malagold, [LINK](http://sharetheexperience.org/entry/35701870-Olympic%20National%20Park)
+- Sol Duc, Scott Malagold, [LINK](https://sharetheexperience.org/entry/35701870-Olympic%20National%20Park)
 ***
 
 ### Redwood
@@ -104,7 +111,7 @@ names(NatParksPalettes)
 
 ### SmokyMtns
 ![SmokyMtns](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/SmokyMtns.png)
--  Little River Road heading to Cades Cove, Norman Lathrop, [LINK](http://sharetheexperience.org/entry/35799330-Great%20Smoky%20Mountains%20National%20Park)
+-  Little River Road heading to Cades Cove, Norman Lathrop, [LINK](https://sharetheexperience.org/entry/35799330-Great%20Smoky%20Mountains%20National%20Park)
 ***
 
 ### Yellowstone

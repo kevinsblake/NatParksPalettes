@@ -16,6 +16,9 @@ scale_fill_natparks_c(name, direction = 1, ...)
 
 \item{...}{Other arguments passed on to \code{\link[ggplot2]{scale_color_gradientn}}}
 }
+\value{
+A function that returns a continuous color scale.
+}
 \description{
 Function for using \code{NatParksPalettes} colors schemes in \code{ggplot2}. Use \code{\link{scale_color_natparks_d}} and \code{\link{scale_fill_natparks_d}}
 for discrete scales and \code{\link{scale_color_natparks_c}} and \code{\link{scale_fill_natparks_c}} for continuous scales.

@@ -168,7 +168,7 @@ colorblind_palettes <- c("Acadia", "Arches", "Arches2", "DeathValley", "Glacier"
 #' \code{DeathValley}, \code{Everglades}, \code{Glacier}, \code{GrandCanyon}, \code{KingsCanyon},
 #' \code{Olympic}, \code{Redwood}, \code{SmokyMtns}, \code{Yellowstone}, and \code{Yosemite}.
 #' @examples
-#' colorblind.friendly("Veronese")
+#' colorblind.friendly("DeathValley")
 #' @return TRUE/FALSE value whether palette is colorblind-friendly
 #' @export
 colorblind.friendly <- function(palette_name){
@@ -206,7 +206,8 @@ colorblind.friendly <- function(palette_name){
 #' library(ggplot2)
 #' ggplot(data=iris, aes(x=Sepal.Length, y=Sepal.Width, color=Species)) +
 #' geom_point() +
-#' scale_color_natparks_d("Juarez")
+#' scale_color_natparks_d("SmokyMtns")
+#' @return A function that returns a discrete color scale.
 #' @export
 scale_color_natparks_d <- function(name, direction=1, override.order=FALSE, ...){
   natparks.pals.disc <- function(name, direction = c(1, -1), override.order=FALSE) {
@@ -256,7 +257,8 @@ scale_color_natparks_d <- function(name, direction=1, override.order=FALSE, ...)
 #' library(ggplot2)
 #' ggplot(data=iris, aes(x=Species, y=Sepal.Length, fill=Species)) +
 #' geom_violin() +
-#' scale_fill_natparks_d("Lakota")
+#' scale_fill_natparks_d("KingsCanyon")
+#' @return A function that returns a discrete color scale.
 #' @export
 scale_fill_natparks_d <- function(name, direction=1, override.order=FALSE, ...){
   natparks.pals.disc <- function(name, direction = c(1, -1), override.order=FALSE) {
@@ -303,7 +305,8 @@ scale_fill_natparks_d <- function(name, direction=1, override.order=FALSE, ...){
 #' library(ggplot2)
 #' ggplot(data=iris, aes(x=Sepal.Length, y=Sepal.Width, color=Sepal.Length)) +
 #' geom_point() +
-#' scale_color_natparks_c("Isfahan1", direction=-1)
+#' scale_color_natparks_c("Arches2", direction=-1)
+#' @return A function that returns a continuous color scale.
 #' @export
 scale_color_natparks_c <- function(name, direction=1, ...){
   
@@ -329,6 +332,7 @@ scale_color_natparks_c <- function(name, direction=1, ...){
 #' @param direction Sets order of colors. Default palette is 1. If direction is -1, palette color order is reversed
 #' @param ... Other arguments passed on to \code{\link[ggplot2]{scale_color_gradientn}}
 #' @import ggplot2
+#' @return A function that returns a continuous color scale.
 #' @export
 scale_fill_natparks_c <- function(name, direction=1, ...){
   
@@ -361,7 +365,8 @@ scale_fill_natparks_c <- function(name, direction=1, ...){
 #' library(ggplot2)
 #' ggplot(data=iris, aes(x=Sepal.Length, y=Sepal.Width, color=Species)) +
 #' geom_point() +
-#' scale_colour_natparks_d("Juarez")
+#' scale_colour_natparks_d("Yellowstone")
+#' @return A function that returns a discrete colour scale.
 #' @export
 
 scale_colour_natparks_d <- scale_color_natparks_d
@@ -382,7 +387,8 @@ scale_colour_natparks_d <- scale_color_natparks_d
 #' library(ggplot2)
 #' ggplot(data=iris, aes(x=Sepal.Length, y=Sepal.Width, color=Sepal.Length)) +
 #' geom_point() +
-#' scale_colour_natparks_c("Isfahan1", direction=-1)
+#' scale_colour_natparks_c("Arches2", direction=-1)
+#' @return A function that returns a continuous colour scale.
 #' @export
 
 scale_colour_natparks_c <- scale_color_natparks_c
@@ -409,6 +415,7 @@ scale_colour_natparks_c <- scale_color_natparks_c
 #'
 #' # 5 Colors of all Palettes
 #' display_all(5, sequential = FALSE, colorblind_only = FALSE)
+#' @return Plot of all color palettes available
 #' @export
 #' @importFrom graphics rect par layout polygon
 
@@ -422,7 +429,8 @@ display_all <- function(n, sequential = FALSE, colorblind_only = FALSE, directio
     pal_names = names(NatParksPalettes)
   }
   
-  orig_pars <- par()
+  orig_pars <- par(no.readonly = TRUE)
+  on.exit(par(orig_pars))
   
   plot_palette = function(name,n){
     par(mar = c(0.1,0.1,1,0.1))
@@ -483,7 +491,6 @@ display_all <- function(n, sequential = FALSE, colorblind_only = FALSE, directio
     }
     
     layout(matrix(1,1,1))
-    par(mar = orig_pars$mar)
     
   }
 }

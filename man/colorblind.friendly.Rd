@@ -20,5 +20,5 @@ Checks whether a palette is colorblind-friendly. Colorblind-friendliness tested 
 To be colorblind-friendly, all colors in the palettes must be distinguishable with deuteranopia, protanopia, and tritanopia.
 }
 \examples{
-colorblind.friendly("Veronese")
+colorblind.friendly("DeathValley")
 }
