@@ -16,14 +16,29 @@ NatParksPalettes <- list(
   Arches2 = list(c("#3A1F46", "#7F4B89", "#B46DB3", "#E3A5D6", "#F3DAE4"), c(1, 2, 3, 4, 5), colorblind=TRUE),
   Banff = list(c("#006475", "#00A1B7", "#55CFD8", "#586028", "#898928", "#616571", "#9DA7BF"), c(2, 5, 1, 6, 3, 7, 4), colorblind=FALSE),
   BryceCanyon = list(c("#882314", "#C0532B", "#CF932C", "#674D53", "#8C86A0", "#724438", "#D5AB85"), c(1, 5, 2, 7, 4, 3, 6), colorblind=FALSE),
+  CapitolReef = list(c("#291919", "#532A34", "#7C5467", "#878195", "#AEB2B7", "#D4D9DD"), c(1, 2, 3, 4, 5, 6), colorblind=FALSE),
+  Charmonix = list(c("#008FF8", "#B6AA0D", "#E2C2A2", "#E23B0E", "#F2C621", "#196689"), c(1, 2, 3, 4, 5, 6), colorblind=FALSE),
+  CraterLake = list(c("#1D4A79", "#794C23", "#6B7444", "#6089B5", "#BF9785", "#275E4D", "#807B7F"), c(1, 2, 3, 4, 5, 6, 7), colorblind=FALSE),
+  Cuyahoga = list(c("#E07529", "#FAAE32", "#7F7991", "#A84A00", "#5D4F36", "#B39085"), c(1, 2, 3, 4, 5, 6), colorblind=FALSE),
   DeathValley = list(c("#8C2B0E", "#C5692D", "#FEB359", "#132F5B", "#435F90", "#68434E", "#B47E83"), c(1, 5, 7, 2, 6, 3, 4), colorblind=TRUE),
+  Denali = list(c("#20223E", "#3F3F7B", "#4C6695", "#278192", "#00B089", "#2EEA8C", "#8FF7BD"), c(1, 2, 3, 4, 5, 6, 7), colorblind=FALSE), 
   Everglades = list(c("#345023", "#596C0B", "#83A102", "#003B68", "#426F86", "#7A712F"), c(3, 4, 1, 6, 5, 2), colorblind=FALSE),
   Glacier = list(c("#01353D", "#088096", "#58B3C7", "#7AD4E4", "#B8FCFC"), c(1, 2, 3, 4, 5), colorblind=TRUE),
   GrandCanyon = list(c("#521E0F", "#9C593E", "#DDA569", "#3F4330", "#8E7E3C", "#2A4866", "#6592B0"), c(2, 6, 3, 4, 7, 1, 5), colorblind=FALSE),
+  Halekala = list(c("#722710", "#A3844D", "#675243", "#A85017", "#838BAA"), c(1, 2, 3, 4, 5), colorblind=FALSE),
+  Iguazu = list(c("#415521", "#97AD3D", "#4C3425", "#7F6552", "#5A8093", "#9FBAD3"), c(1, 2, 3, 4, 5, 6), colorblind=FALSE),
   KingsCanyon = list(c("#613921", "#A77652", "#F2C27B", "#AAC9ED", "#44637D", "#8E949F"), c(1, 5, 6, 3, 2, 4), colorblind=TRUE),
+  LakeNakuru = list(c("#D76E9A", "#A1ACC8", "#AD3C36", "#332627", "#EACACF", "#AA6B77"), c(1, 2, 3, 4, 5, 6), colorblind=FALSE),
   Olympic = list(c("#3A4330", "#426737", "#75871B", "#BAB97D", "#FAF3CE", "#FDE16A", "#F9B40E", "#E88C23", "#A25933"), c(1, 2, 3, 4, 5, 6, 7, 8, 9), colorblind=FALSE),
   Redwood = list(c("#5E3B49", "#9B5F6B", "#BA817D", "#325731", "#6A9741", "#5F4E2F"), c(2, 5, 6, 3, 4, 1), colorblind=FALSE),
+  RockyMtn = list(c("#274C31", "#A3AEB5", "#2F4B6A", "#8F8081", "#3F7156", "#6F89A7", "#5B5443"), c(1, 2, 3, 4, 5, 6, 7), colorblind=FALSE),
+  Saguaro = list(c("#127088", "#C85729", "#92874B", "#CD8A39", "#AC3414", "#57643C"), c(1, 2, 3, 4, 5, 6), colorblind=FALSE),
   SmokyMtns = list(c("#42511A", "#889D35", "#D3D175", "#B50200", "#DA6C41", "#7C6E66", "#BCAFA6"), c(1, 4, 2, 6, 3, 5, 7), colorblind=FALSE),
+  SouthDowns = list(c("#948D2A", "#D5B44D", "#89A4BF", "#F1D6B6", "#9B8358", "#577291"), c(1, 2, 3, 4, 5, 6), colorblind=FALSE),
+  Torres = list(c("#2F397A", "#7391BD", "#894846", "#E9988C", "#535260", "#B7A7A6", "#785838", "#C68D61", "#4F6008", "#93995C"), c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10), colorblind=FALSE),
+  Triglav = list(c("#386EC2", "#B5B5B2", "#990006", "#625D0A", "#B9741F", "#213958"), c(1, 2, 3, 4, 5, 6), colorblind=FALSE),
+  WindCave = list(c("#2F100E", "#6C3322", "#B07159", "#C9A197", "#E0CDCD"), c(1, 2, 3, 4, 5), colorblind=FALSE),
+  Volcano = list(c("#082544", "#1E547D", "#79668C", "#DE3C37", "#F2DC7E"), c(1, 2, 3, 4, 5), colorblind=FALSE),
   Yellowstone = list(c("#0067A2", "#DFCB91", "#CB7223", "#289A84", "#7FA4C2", "#AF7E56"), c(1, 2, 3, 4, 5, 6), colorblind=FALSE),
   Yosemite = list(c("#293633", "#3D5051", "#6B7F7F", "#87A1C7", "#516B95", "#304F7D"), c(1, 2, 3, 4, 5, 6), colorblind=FALSE)
 )
@@ -470,7 +485,7 @@ display_all <- function(n, sequential = FALSE, colorblind_only = FALSE, directio
         
       }else{
         
-        layout(matrix(1:N,5,3))
+        layout(matrix(1:N,6,5))
         for(i in 1:N) plot_palette(pal_names[i])
       }
       
@@ -483,7 +498,7 @@ display_all <- function(n, sequential = FALSE, colorblind_only = FALSE, directio
         
       }else{
         
-        layout(matrix(1:N,5,3))
+        layout(matrix(1:N,6,5))
         for(i in 1:N) plot_palette(pal_names[i],n)
         
       }
