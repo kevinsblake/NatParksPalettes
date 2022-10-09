@@ -22,8 +22,10 @@ My Website: [kevinsblake.com](https://kevinsblake.com/)<br /> Twitter: [@kevinsb
 ### R
 NatParksPalettes is on CRAN and able to be downloaded in R. It can still be installed through GitHub.
 ```r
+# Install through CRAN
 install.packages("NatParksPalettes")
 
+# Install through GitHub
 install.packages("devtools")
 devtools::install_github("kevinsblake/NatParksPalettes")
 ```
