@@ -29,9 +29,13 @@ devtools::install_github("kevinsblake/NatParksPalettes")
 ```
 
 ### QGIS
-Download `GIS/NatParksPalettes.xml` file. Then in QGIS, open `Settings` `Style Manager...` expand the `Import/Export` drop-down menu and select `Import Item(s)...`. Expand the `Import from` drop-down menu and select `File`. Then select `...` and select the filepath of the downloaded `.xml` file. 
+From QGIS, open `Settings` `Style Manager...` expand the `Import/Export` drop-down menu and select `Import Item(s)...`. Expand the `Import from` drop-down menu, select `URL`, and paste this URL: 
 
-Then select `Import`.
+```
+https://raw.githubusercontent.com/kevinsblake/NatParksPalettes/main/GIS/NatParksPalettes.xml
+```
+
+Then select `Fetch Items`. Choose individual palettes or select `Select All` then select `Import`.
 
 ## Usage
 ```r
