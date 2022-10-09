@@ -505,7 +505,7 @@ display_all <- function(n, sequential = FALSE, colorblind_only = FALSE, directio
       
       if(colorblind_only){
         
-        layout(matrix(1:N,3,2))
+        layout(matrix(1:N,4,3))
         for(i in 1:N) plot_palette(pal_names[i])
         
       }else{
@@ -518,7 +518,7 @@ display_all <- function(n, sequential = FALSE, colorblind_only = FALSE, directio
       
       if(colorblind_only){
         
-        layout(matrix(1:N,3,2))
+        layout(matrix(1:N,4,3))
         for(i in 1:N) plot_palette(pal_names[i],n)
         
       }else{

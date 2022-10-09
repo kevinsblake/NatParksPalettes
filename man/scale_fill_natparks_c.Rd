@@ -9,8 +9,11 @@ scale_fill_natparks_c(name, direction = 1, ...)
 \arguments{
 \item{name}{Name of Palette. Choices are:
 \code{Acadia}, \code{Arches}, \code{Arches2}, \code{Banff}, \code{Bryce Canyon},
-\code{DeathValley}, \code{Everglades}, \code{Glacier}, \code{GrandCanyon}, \code{KingsCanyon},
-\code{Olympic}, \code{Redwood}, \code{SmokyMtns}, \code{Yellowstone}, and \code{Yosemite}.}
+\code{CapitolReef}, \code{Charmonix}, \code{Cuyahoga}, \code{DeathValley}, \code{Denali}, 
+\code{Everglades}, \code{Glacier}, \code{GrandCanyon}, \code{Halekala}, \code{IguazuFalls}, 
+\code{KingsCanyon}, \code{LakeNakuru}, \code{Olympic}, \code{Redwood}, \code{RockyMtn}, 
+\code{Saguaro}, \code{SmokyMtns}, \code{SouthDowns}, \code{Torres}, \code{Triglav}, 
+\code{WindCave}, \code{Volcanoes},  \code{Yellowstone}, and \code{Yosemite}.}
 
 \item{direction}{Sets order of colors. Default palette is 1. If direction is -1, palette color order is reversed}
 

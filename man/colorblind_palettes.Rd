@@ -5,7 +5,7 @@
 \alias{colorblind_palettes}
 \title{Names of colorblind-friendly palettes}
 \format{
-An object of class \code{character} of length 6.
+An object of class \code{character} of length 12.
 }
 \usage{
 colorblind_palettes

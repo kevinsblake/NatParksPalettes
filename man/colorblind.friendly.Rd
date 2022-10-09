@@ -9,8 +9,11 @@ colorblind.friendly(palette_name)
 \arguments{
 \item{palette_name}{Name of Palette. Choices are:
 \code{Acadia}, \code{Arches}, \code{Arches2}, \code{Banff}, \code{Bryce Canyon},
-\code{DeathValley}, \code{Everglades}, \code{Glacier}, \code{GrandCanyon}, \code{KingsCanyon},
-\code{Olympic}, \code{Redwood}, \code{SmokyMtns}, \code{Yellowstone}, and \code{Yosemite}.}
+\code{CapitolReef}, \code{Charmonix}, \code{Cuyahoga}, \code{DeathValley}, \code{Denali}, 
+\code{Everglades}, \code{Glacier}, \code{GrandCanyon}, \code{Halekala}, \code{IguazuFalls}, 
+\code{KingsCanyon}, \code{LakeNakuru}, \code{Olympic}, \code{Redwood}, \code{RockyMtn}, 
+\code{Saguaro}, \code{SmokyMtns}, \code{SouthDowns}, \code{Torres}, \code{Triglav}, 
+\code{WindCave}, \code{Volcanoes},  \code{Yellowstone}, and \code{Yosemite}.}
 }
 \value{
 TRUE/FALSE value whether palette is colorblind-friendly
