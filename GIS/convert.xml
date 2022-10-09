@@ -1,0 +1,20 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="2">
+  <symbols/>
+  <colorramps>
+  <% for(ramp in names(ramps)){ -%>
+    <colorramp tags="<%= tags%>" name="<%=ramp%>" type="preset">
+  <% for(icol in 1:length(ramps[[ramp]][[1]])){ -%>
+       <prop v="<%=ramps[[ramp]][[1]][icol]%>" k="preset_color_<%=icol-1%>" />
+  <% } %>
+  <% for(icol in 1:length(ramps[[ramp]][[1]])){ -%>
+       <prop v="<%=ramps[[ramp]][[1]][icol]%>" k="preset_color_name_<%=icol-1%>" />
+  <% } -%>
+    </colorramp>
+  <% } -%>
+  </colorramps>
+  <textformats/>
+  <labelsettings/>
+  <legendpatchshapes/>
+  <symbols3d/>
+</qgis_style>

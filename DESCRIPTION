@@ -1,7 +1,7 @@
 Package: NatParksPalettes
 Type: Package
 Title: Color Palettes Inspired by National Parks
-Version: 0.1.4
+Version: 0.2.0
 Author: Kevin Blake [aut, cre]
 Maintainer: Kevin Blake <kevinsblake@gmail.com>
 Authors@R: c(person(given = "Kevin", family = "Blake", role = c("aut", "cre"), email = "kevinsblake@gmail.com"))

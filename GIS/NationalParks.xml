@@ -1,0 +1,490 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="2">
+  <symbols/>
+  <colorramps>
+      <colorramp tags="NationalParks" name="Acadia" type="preset">
+         <prop v="#212E52" k="preset_color_0" />
+         <prop v="#444E7E" k="preset_color_1" />
+         <prop v="#8087AA" k="preset_color_2" />
+         <prop v="#B7ABBC" k="preset_color_3" />
+         <prop v="#F9ECE8" k="preset_color_4" />
+         <prop v="#FCC893" k="preset_color_5" />
+         <prop v="#FEB424" k="preset_color_6" />
+         <prop v="#FD8700" k="preset_color_7" />
+         <prop v="#D8511D" k="preset_color_8" />
+  
+         <prop v="#212E52" k="preset_color_name_0" />
+         <prop v="#444E7E" k="preset_color_name_1" />
+         <prop v="#8087AA" k="preset_color_name_2" />
+         <prop v="#B7ABBC" k="preset_color_name_3" />
+         <prop v="#F9ECE8" k="preset_color_name_4" />
+         <prop v="#FCC893" k="preset_color_name_5" />
+         <prop v="#FEB424" k="preset_color_name_6" />
+         <prop v="#FD8700" k="preset_color_name_7" />
+         <prop v="#D8511D" k="preset_color_name_8" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="Arches" type="preset">
+         <prop v="#1A3D82" k="preset_color_0" />
+         <prop v="#0C62AF" k="preset_color_1" />
+         <prop v="#4499F5" k="preset_color_2" />
+         <prop v="#8FCAFD" k="preset_color_3" />
+         <prop v="#F2F2F2" k="preset_color_4" />
+         <prop v="#F0AC7D" k="preset_color_5" />
+         <prop v="#CD622E" k="preset_color_6" />
+         <prop v="#B14311" k="preset_color_7" />
+         <prop v="#832B0F" k="preset_color_8" />
+  
+         <prop v="#1A3D82" k="preset_color_name_0" />
+         <prop v="#0C62AF" k="preset_color_name_1" />
+         <prop v="#4499F5" k="preset_color_name_2" />
+         <prop v="#8FCAFD" k="preset_color_name_3" />
+         <prop v="#F2F2F2" k="preset_color_name_4" />
+         <prop v="#F0AC7D" k="preset_color_name_5" />
+         <prop v="#CD622E" k="preset_color_name_6" />
+         <prop v="#B14311" k="preset_color_name_7" />
+         <prop v="#832B0F" k="preset_color_name_8" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="Arches2" type="preset">
+         <prop v="#3A1F46" k="preset_color_0" />
+         <prop v="#7F4B89" k="preset_color_1" />
+         <prop v="#B46DB3" k="preset_color_2" />
+         <prop v="#E3A5D6" k="preset_color_3" />
+         <prop v="#F3DAE4" k="preset_color_4" />
+  
+         <prop v="#3A1F46" k="preset_color_name_0" />
+         <prop v="#7F4B89" k="preset_color_name_1" />
+         <prop v="#B46DB3" k="preset_color_name_2" />
+         <prop v="#E3A5D6" k="preset_color_name_3" />
+         <prop v="#F3DAE4" k="preset_color_name_4" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="Banff" type="preset">
+         <prop v="#006475" k="preset_color_0" />
+         <prop v="#00A1B7" k="preset_color_1" />
+         <prop v="#55CFD8" k="preset_color_2" />
+         <prop v="#586028" k="preset_color_3" />
+         <prop v="#898928" k="preset_color_4" />
+         <prop v="#616571" k="preset_color_5" />
+         <prop v="#9DA7BF" k="preset_color_6" />
+  
+         <prop v="#006475" k="preset_color_name_0" />
+         <prop v="#00A1B7" k="preset_color_name_1" />
+         <prop v="#55CFD8" k="preset_color_name_2" />
+         <prop v="#586028" k="preset_color_name_3" />
+         <prop v="#898928" k="preset_color_name_4" />
+         <prop v="#616571" k="preset_color_name_5" />
+         <prop v="#9DA7BF" k="preset_color_name_6" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="BryceCanyon" type="preset">
+         <prop v="#882314" k="preset_color_0" />
+         <prop v="#C0532B" k="preset_color_1" />
+         <prop v="#CF932C" k="preset_color_2" />
+         <prop v="#674D53" k="preset_color_3" />
+         <prop v="#8C86A0" k="preset_color_4" />
+         <prop v="#724438" k="preset_color_5" />
+         <prop v="#D5AB85" k="preset_color_6" />
+  
+         <prop v="#882314" k="preset_color_name_0" />
+         <prop v="#C0532B" k="preset_color_name_1" />
+         <prop v="#CF932C" k="preset_color_name_2" />
+         <prop v="#674D53" k="preset_color_name_3" />
+         <prop v="#8C86A0" k="preset_color_name_4" />
+         <prop v="#724438" k="preset_color_name_5" />
+         <prop v="#D5AB85" k="preset_color_name_6" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="CapitolReef" type="preset">
+         <prop v="#291919" k="preset_color_0" />
+         <prop v="#532A34" k="preset_color_1" />
+         <prop v="#7C5467" k="preset_color_2" />
+         <prop v="#878195" k="preset_color_3" />
+         <prop v="#AEB2B7" k="preset_color_4" />
+         <prop v="#D4D9DD" k="preset_color_5" />
+  
+         <prop v="#291919" k="preset_color_name_0" />
+         <prop v="#532A34" k="preset_color_name_1" />
+         <prop v="#7C5467" k="preset_color_name_2" />
+         <prop v="#878195" k="preset_color_name_3" />
+         <prop v="#AEB2B7" k="preset_color_name_4" />
+         <prop v="#D4D9DD" k="preset_color_name_5" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="Charmonix" type="preset">
+         <prop v="#008FF8" k="preset_color_0" />
+         <prop v="#B6AA0D" k="preset_color_1" />
+         <prop v="#E2C2A2" k="preset_color_2" />
+         <prop v="#E23B0E" k="preset_color_3" />
+         <prop v="#F2C621" k="preset_color_4" />
+         <prop v="#196689" k="preset_color_5" />
+  
+         <prop v="#008FF8" k="preset_color_name_0" />
+         <prop v="#B6AA0D" k="preset_color_name_1" />
+         <prop v="#E2C2A2" k="preset_color_name_2" />
+         <prop v="#E23B0E" k="preset_color_name_3" />
+         <prop v="#F2C621" k="preset_color_name_4" />
+         <prop v="#196689" k="preset_color_name_5" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="CraterLake" type="preset">
+         <prop v="#1D4A79" k="preset_color_0" />
+         <prop v="#794C23" k="preset_color_1" />
+         <prop v="#6B7444" k="preset_color_2" />
+         <prop v="#6089B5" k="preset_color_3" />
+         <prop v="#BF9785" k="preset_color_4" />
+         <prop v="#275E4D" k="preset_color_5" />
+         <prop v="#807B7F" k="preset_color_6" />
+  
+         <prop v="#1D4A79" k="preset_color_name_0" />
+         <prop v="#794C23" k="preset_color_name_1" />
+         <prop v="#6B7444" k="preset_color_name_2" />
+         <prop v="#6089B5" k="preset_color_name_3" />
+         <prop v="#BF9785" k="preset_color_name_4" />
+         <prop v="#275E4D" k="preset_color_name_5" />
+         <prop v="#807B7F" k="preset_color_name_6" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="Cuyahoga" type="preset">
+         <prop v="#E07529" k="preset_color_0" />
+         <prop v="#FAAE32" k="preset_color_1" />
+         <prop v="#7F7991" k="preset_color_2" />
+         <prop v="#A84A00" k="preset_color_3" />
+         <prop v="#5D4F36" k="preset_color_4" />
+         <prop v="#B39085" k="preset_color_5" />
+  
+         <prop v="#E07529" k="preset_color_name_0" />
+         <prop v="#FAAE32" k="preset_color_name_1" />
+         <prop v="#7F7991" k="preset_color_name_2" />
+         <prop v="#A84A00" k="preset_color_name_3" />
+         <prop v="#5D4F36" k="preset_color_name_4" />
+         <prop v="#B39085" k="preset_color_name_5" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="DeathValley" type="preset">
+         <prop v="#8C2B0E" k="preset_color_0" />
+         <prop v="#C5692D" k="preset_color_1" />
+         <prop v="#FEB359" k="preset_color_2" />
+         <prop v="#132F5B" k="preset_color_3" />
+         <prop v="#435F90" k="preset_color_4" />
+         <prop v="#68434E" k="preset_color_5" />
+         <prop v="#B47E83" k="preset_color_6" />
+  
+         <prop v="#8C2B0E" k="preset_color_name_0" />
+         <prop v="#C5692D" k="preset_color_name_1" />
+         <prop v="#FEB359" k="preset_color_name_2" />
+         <prop v="#132F5B" k="preset_color_name_3" />
+         <prop v="#435F90" k="preset_color_name_4" />
+         <prop v="#68434E" k="preset_color_name_5" />
+         <prop v="#B47E83" k="preset_color_name_6" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="Denali" type="preset">
+         <prop v="#20223E" k="preset_color_0" />
+         <prop v="#3F3F7B" k="preset_color_1" />
+         <prop v="#278192" k="preset_color_2" />
+         <prop v="#00B089" k="preset_color_3" />
+         <prop v="#2EEA8C" k="preset_color_4" />
+         <prop v="#8FF7BD" k="preset_color_5" />
+  
+         <prop v="#20223E" k="preset_color_name_0" />
+         <prop v="#3F3F7B" k="preset_color_name_1" />
+         <prop v="#278192" k="preset_color_name_2" />
+         <prop v="#00B089" k="preset_color_name_3" />
+         <prop v="#2EEA8C" k="preset_color_name_4" />
+         <prop v="#8FF7BD" k="preset_color_name_5" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="Everglades" type="preset">
+         <prop v="#345023" k="preset_color_0" />
+         <prop v="#596C0B" k="preset_color_1" />
+         <prop v="#83A102" k="preset_color_2" />
+         <prop v="#003B68" k="preset_color_3" />
+         <prop v="#426F86" k="preset_color_4" />
+         <prop v="#7A712F" k="preset_color_5" />
+  
+         <prop v="#345023" k="preset_color_name_0" />
+         <prop v="#596C0B" k="preset_color_name_1" />
+         <prop v="#83A102" k="preset_color_name_2" />
+         <prop v="#003B68" k="preset_color_name_3" />
+         <prop v="#426F86" k="preset_color_name_4" />
+         <prop v="#7A712F" k="preset_color_name_5" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="Glacier" type="preset">
+         <prop v="#01353D" k="preset_color_0" />
+         <prop v="#088096" k="preset_color_1" />
+         <prop v="#58B3C7" k="preset_color_2" />
+         <prop v="#7AD4E4" k="preset_color_3" />
+         <prop v="#B8FCFC" k="preset_color_4" />
+  
+         <prop v="#01353D" k="preset_color_name_0" />
+         <prop v="#088096" k="preset_color_name_1" />
+         <prop v="#58B3C7" k="preset_color_name_2" />
+         <prop v="#7AD4E4" k="preset_color_name_3" />
+         <prop v="#B8FCFC" k="preset_color_name_4" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="GrandCanyon" type="preset">
+         <prop v="#521E0F" k="preset_color_0" />
+         <prop v="#9C593E" k="preset_color_1" />
+         <prop v="#DDA569" k="preset_color_2" />
+         <prop v="#3F4330" k="preset_color_3" />
+         <prop v="#8E7E3C" k="preset_color_4" />
+         <prop v="#2A4866" k="preset_color_5" />
+         <prop v="#6592B0" k="preset_color_6" />
+  
+         <prop v="#521E0F" k="preset_color_name_0" />
+         <prop v="#9C593E" k="preset_color_name_1" />
+         <prop v="#DDA569" k="preset_color_name_2" />
+         <prop v="#3F4330" k="preset_color_name_3" />
+         <prop v="#8E7E3C" k="preset_color_name_4" />
+         <prop v="#2A4866" k="preset_color_name_5" />
+         <prop v="#6592B0" k="preset_color_name_6" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="Halekala" type="preset">
+         <prop v="#722710" k="preset_color_0" />
+         <prop v="#A3844D" k="preset_color_1" />
+         <prop v="#675243" k="preset_color_2" />
+         <prop v="#A85017" k="preset_color_3" />
+         <prop v="#838BAA" k="preset_color_4" />
+  
+         <prop v="#722710" k="preset_color_name_0" />
+         <prop v="#A3844D" k="preset_color_name_1" />
+         <prop v="#675243" k="preset_color_name_2" />
+         <prop v="#A85017" k="preset_color_name_3" />
+         <prop v="#838BAA" k="preset_color_name_4" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="IguazuFalls" type="preset">
+         <prop v="#415521" k="preset_color_0" />
+         <prop v="#97AD3D" k="preset_color_1" />
+         <prop v="#4C3425" k="preset_color_2" />
+         <prop v="#7F6552" k="preset_color_3" />
+         <prop v="#5A8093" k="preset_color_4" />
+         <prop v="#9FBAD3" k="preset_color_5" />
+  
+         <prop v="#415521" k="preset_color_name_0" />
+         <prop v="#97AD3D" k="preset_color_name_1" />
+         <prop v="#4C3425" k="preset_color_name_2" />
+         <prop v="#7F6552" k="preset_color_name_3" />
+         <prop v="#5A8093" k="preset_color_name_4" />
+         <prop v="#9FBAD3" k="preset_color_name_5" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="KingsCanyon" type="preset">
+         <prop v="#613921" k="preset_color_0" />
+         <prop v="#A77652" k="preset_color_1" />
+         <prop v="#F2C27B" k="preset_color_2" />
+         <prop v="#AAC9ED" k="preset_color_3" />
+         <prop v="#44637D" k="preset_color_4" />
+         <prop v="#8E949F" k="preset_color_5" />
+  
+         <prop v="#613921" k="preset_color_name_0" />
+         <prop v="#A77652" k="preset_color_name_1" />
+         <prop v="#F2C27B" k="preset_color_name_2" />
+         <prop v="#AAC9ED" k="preset_color_name_3" />
+         <prop v="#44637D" k="preset_color_name_4" />
+         <prop v="#8E949F" k="preset_color_name_5" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="LakeNakuru" type="preset">
+         <prop v="#D76E9A" k="preset_color_0" />
+         <prop v="#A1ACC8" k="preset_color_1" />
+         <prop v="#AD3C36" k="preset_color_2" />
+         <prop v="#332627" k="preset_color_3" />
+         <prop v="#EACACF" k="preset_color_4" />
+         <prop v="#AA6B77" k="preset_color_5" />
+  
+         <prop v="#D76E9A" k="preset_color_name_0" />
+         <prop v="#A1ACC8" k="preset_color_name_1" />
+         <prop v="#AD3C36" k="preset_color_name_2" />
+         <prop v="#332627" k="preset_color_name_3" />
+         <prop v="#EACACF" k="preset_color_name_4" />
+         <prop v="#AA6B77" k="preset_color_name_5" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="Olympic" type="preset">
+         <prop v="#3A4330" k="preset_color_0" />
+         <prop v="#426737" k="preset_color_1" />
+         <prop v="#75871B" k="preset_color_2" />
+         <prop v="#BAB97D" k="preset_color_3" />
+         <prop v="#FAF3CE" k="preset_color_4" />
+         <prop v="#FDE16A" k="preset_color_5" />
+         <prop v="#F9B40E" k="preset_color_6" />
+         <prop v="#E88C23" k="preset_color_7" />
+         <prop v="#A25933" k="preset_color_8" />
+  
+         <prop v="#3A4330" k="preset_color_name_0" />
+         <prop v="#426737" k="preset_color_name_1" />
+         <prop v="#75871B" k="preset_color_name_2" />
+         <prop v="#BAB97D" k="preset_color_name_3" />
+         <prop v="#FAF3CE" k="preset_color_name_4" />
+         <prop v="#FDE16A" k="preset_color_name_5" />
+         <prop v="#F9B40E" k="preset_color_name_6" />
+         <prop v="#E88C23" k="preset_color_name_7" />
+         <prop v="#A25933" k="preset_color_name_8" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="Redwood" type="preset">
+         <prop v="#5E3B49" k="preset_color_0" />
+         <prop v="#9B5F6B" k="preset_color_1" />
+         <prop v="#BA817D" k="preset_color_2" />
+         <prop v="#325731" k="preset_color_3" />
+         <prop v="#6A9741" k="preset_color_4" />
+         <prop v="#5F4E2F" k="preset_color_5" />
+  
+         <prop v="#5E3B49" k="preset_color_name_0" />
+         <prop v="#9B5F6B" k="preset_color_name_1" />
+         <prop v="#BA817D" k="preset_color_name_2" />
+         <prop v="#325731" k="preset_color_name_3" />
+         <prop v="#6A9741" k="preset_color_name_4" />
+         <prop v="#5F4E2F" k="preset_color_name_5" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="RockyMtn" type="preset">
+         <prop v="#274C31" k="preset_color_0" />
+         <prop v="#A3AEB5" k="preset_color_1" />
+         <prop v="#2F4B6A" k="preset_color_2" />
+         <prop v="#8F8081" k="preset_color_3" />
+         <prop v="#3F7156" k="preset_color_4" />
+         <prop v="#6F89A7" k="preset_color_5" />
+         <prop v="#5B5443" k="preset_color_6" />
+  
+         <prop v="#274C31" k="preset_color_name_0" />
+         <prop v="#A3AEB5" k="preset_color_name_1" />
+         <prop v="#2F4B6A" k="preset_color_name_2" />
+         <prop v="#8F8081" k="preset_color_name_3" />
+         <prop v="#3F7156" k="preset_color_name_4" />
+         <prop v="#6F89A7" k="preset_color_name_5" />
+         <prop v="#5B5443" k="preset_color_name_6" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="Saguaro" type="preset">
+         <prop v="#127088" k="preset_color_0" />
+         <prop v="#C85729" k="preset_color_1" />
+         <prop v="#92874B" k="preset_color_2" />
+         <prop v="#CD8A39" k="preset_color_3" />
+         <prop v="#AC3414" k="preset_color_4" />
+         <prop v="#57643C" k="preset_color_5" />
+  
+         <prop v="#127088" k="preset_color_name_0" />
+         <prop v="#C85729" k="preset_color_name_1" />
+         <prop v="#92874B" k="preset_color_name_2" />
+         <prop v="#CD8A39" k="preset_color_name_3" />
+         <prop v="#AC3414" k="preset_color_name_4" />
+         <prop v="#57643C" k="preset_color_name_5" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="SmokyMtns" type="preset">
+         <prop v="#42511A" k="preset_color_0" />
+         <prop v="#889D35" k="preset_color_1" />
+         <prop v="#D3D175" k="preset_color_2" />
+         <prop v="#B50200" k="preset_color_3" />
+         <prop v="#DA6C41" k="preset_color_4" />
+         <prop v="#7C6E66" k="preset_color_5" />
+         <prop v="#BCAFA6" k="preset_color_6" />
+  
+         <prop v="#42511A" k="preset_color_name_0" />
+         <prop v="#889D35" k="preset_color_name_1" />
+         <prop v="#D3D175" k="preset_color_name_2" />
+         <prop v="#B50200" k="preset_color_name_3" />
+         <prop v="#DA6C41" k="preset_color_name_4" />
+         <prop v="#7C6E66" k="preset_color_name_5" />
+         <prop v="#BCAFA6" k="preset_color_name_6" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="SouthDowns" type="preset">
+         <prop v="#948D2A" k="preset_color_0" />
+         <prop v="#D5B44D" k="preset_color_1" />
+         <prop v="#89A4BF" k="preset_color_2" />
+         <prop v="#F1D6B6" k="preset_color_3" />
+         <prop v="#9B8358" k="preset_color_4" />
+         <prop v="#577291" k="preset_color_5" />
+  
+         <prop v="#948D2A" k="preset_color_name_0" />
+         <prop v="#D5B44D" k="preset_color_name_1" />
+         <prop v="#89A4BF" k="preset_color_name_2" />
+         <prop v="#F1D6B6" k="preset_color_name_3" />
+         <prop v="#9B8358" k="preset_color_name_4" />
+         <prop v="#577291" k="preset_color_name_5" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="Torres" type="preset">
+         <prop v="#2F397A" k="preset_color_0" />
+         <prop v="#7391BD" k="preset_color_1" />
+         <prop v="#894846" k="preset_color_2" />
+         <prop v="#E9988C" k="preset_color_3" />
+         <prop v="#535260" k="preset_color_4" />
+         <prop v="#B7A7A6" k="preset_color_5" />
+         <prop v="#785838" k="preset_color_6" />
+         <prop v="#C68D61" k="preset_color_7" />
+         <prop v="#4F6008" k="preset_color_8" />
+         <prop v="#93995C" k="preset_color_9" />
+  
+         <prop v="#2F397A" k="preset_color_name_0" />
+         <prop v="#7391BD" k="preset_color_name_1" />
+         <prop v="#894846" k="preset_color_name_2" />
+         <prop v="#E9988C" k="preset_color_name_3" />
+         <prop v="#535260" k="preset_color_name_4" />
+         <prop v="#B7A7A6" k="preset_color_name_5" />
+         <prop v="#785838" k="preset_color_name_6" />
+         <prop v="#C68D61" k="preset_color_name_7" />
+         <prop v="#4F6008" k="preset_color_name_8" />
+         <prop v="#93995C" k="preset_color_name_9" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="Triglav" type="preset">
+         <prop v="#386EC2" k="preset_color_0" />
+         <prop v="#B5B5B2" k="preset_color_1" />
+         <prop v="#990006" k="preset_color_2" />
+         <prop v="#625D0A" k="preset_color_3" />
+         <prop v="#B9741F" k="preset_color_4" />
+         <prop v="#213958" k="preset_color_5" />
+  
+         <prop v="#386EC2" k="preset_color_name_0" />
+         <prop v="#B5B5B2" k="preset_color_name_1" />
+         <prop v="#990006" k="preset_color_name_2" />
+         <prop v="#625D0A" k="preset_color_name_3" />
+         <prop v="#B9741F" k="preset_color_name_4" />
+         <prop v="#213958" k="preset_color_name_5" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="WindCave" type="preset">
+         <prop v="#2F100E" k="preset_color_0" />
+         <prop v="#6C3322" k="preset_color_1" />
+         <prop v="#B07159" k="preset_color_2" />
+         <prop v="#C9A197" k="preset_color_3" />
+         <prop v="#E0CDCD" k="preset_color_4" />
+  
+         <prop v="#2F100E" k="preset_color_name_0" />
+         <prop v="#6C3322" k="preset_color_name_1" />
+         <prop v="#B07159" k="preset_color_name_2" />
+         <prop v="#C9A197" k="preset_color_name_3" />
+         <prop v="#E0CDCD" k="preset_color_name_4" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="Volcanoes" type="preset">
+         <prop v="#082544" k="preset_color_0" />
+         <prop v="#1E547D" k="preset_color_1" />
+         <prop v="#79668C" k="preset_color_2" />
+         <prop v="#DE3C37" k="preset_color_3" />
+         <prop v="#F2DC7E" k="preset_color_4" />
+  
+         <prop v="#082544" k="preset_color_name_0" />
+         <prop v="#1E547D" k="preset_color_name_1" />
+         <prop v="#79668C" k="preset_color_name_2" />
+         <prop v="#DE3C37" k="preset_color_name_3" />
+         <prop v="#F2DC7E" k="preset_color_name_4" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="Yellowstone" type="preset">
+         <prop v="#0067A2" k="preset_color_0" />
+         <prop v="#DFCB91" k="preset_color_1" />
+         <prop v="#CB7223" k="preset_color_2" />
+         <prop v="#289A84" k="preset_color_3" />
+         <prop v="#7FA4C2" k="preset_color_4" />
+         <prop v="#AF7E56" k="preset_color_5" />
+  
+         <prop v="#0067A2" k="preset_color_name_0" />
+         <prop v="#DFCB91" k="preset_color_name_1" />
+         <prop v="#CB7223" k="preset_color_name_2" />
+         <prop v="#289A84" k="preset_color_name_3" />
+         <prop v="#7FA4C2" k="preset_color_name_4" />
+         <prop v="#AF7E56" k="preset_color_name_5" />
+      </colorramp>
+      <colorramp tags="NationalParks" name="Yosemite" type="preset">
+         <prop v="#293633" k="preset_color_0" />
+         <prop v="#3D5051" k="preset_color_1" />
+         <prop v="#6B7F7F" k="preset_color_2" />
+         <prop v="#87A1C7" k="preset_color_3" />
+         <prop v="#516B95" k="preset_color_4" />
+         <prop v="#304F7D" k="preset_color_5" />
+  
+         <prop v="#293633" k="preset_color_name_0" />
+         <prop v="#3D5051" k="preset_color_name_1" />
+         <prop v="#6B7F7F" k="preset_color_name_2" />
+         <prop v="#87A1C7" k="preset_color_name_3" />
+         <prop v="#516B95" k="preset_color_name_4" />
+         <prop v="#304F7D" k="preset_color_name_5" />
+      </colorramp>
+    </colorramps>
+  <textformats/>
+  <labelsettings/>
+  <legendpatchshapes/>
+  <symbols3d/>
+</qgis_style>
