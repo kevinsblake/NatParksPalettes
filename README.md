@@ -48,7 +48,7 @@ names(NatParksPalettes)
 ## Palettes
 
 ### All Palettes
-![AllPals](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/examples/allpalettes.png)
+![AllPals](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/examples/allpalettes_v2.png)
 
 ### Acadia NP, USA
 ![Acadia](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/Acadia.png)
