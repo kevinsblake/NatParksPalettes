@@ -260,7 +260,8 @@ scale_color_natparks_d <- function(name, direction=1, override.order=FALSE, ...)
   }
   
   discrete_scale(aesthetics = "colour", scale_name="natparks_d",
-                 palette = natparks.pals.disc(name=name, direction=direction, override.order=override.order))
+                 palette = natparks.pals.disc(name=name, direction=direction, override.order=override.order),
+                 ...)
 }
 
 #' NatParksPalettes for plotting with ggplot2
@@ -313,7 +314,8 @@ scale_fill_natparks_d <- function(name, direction=1, override.order=FALSE, ...){
   }
   
   discrete_scale(aesthetics = "fill", scale_name="natparks_d",
-                 palette = natparks.pals.disc(name=name, direction=direction, override.order=override.order))
+                 palette = natparks.pals.disc(name=name, direction=direction, override.order=override.order),
+                 ...)
 }
 
 
@@ -347,7 +349,8 @@ scale_color_natparks_c <- function(name, direction=1, ...){
     stop("Direction not valid. Please use 1 for standard palette or -1 for reversed palette.")
   }
   
-  scale_color_gradientn(colors=natparks.pals(name=name, direction=direction, override.order = F))
+  scale_color_gradientn(colors=natparks.pals(name=name, direction=direction, override.order = F),
+                        ...)
 }
 
 
@@ -376,7 +379,8 @@ scale_fill_natparks_c <- function(name, direction=1, ...){
     stop("Direction not valid. Please use 1 for standard palette or -1 for reversed palette.")
   }
   
-  scale_fill_gradientn(colors=natparks.pals(name=name, direction=direction, override.order = F))
+  scale_fill_gradientn(colors=natparks.pals(name=name, direction=direction, override.order = F),
+                       ...)
 }
 
 
