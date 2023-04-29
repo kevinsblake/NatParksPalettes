@@ -2,12 +2,12 @@
 Color palettes inspired by National Parks.
 
 ![CRAN Version](https://www.r-pkg.org/badges/version/NatParksPalettes)
-![CRAN Downloads](https://cranlogs.r-pkg.org/badges/NatParksPalettes)
+![CRAN Downloads](https://cranlogs.r-pkg.org/badges/grand-total/NatParksPalettes)
 
-This package is based on code from the [`MetBrewer`](https://github.com/BlakeRMills/MetBrewer) package. For more National Parks inspired palettes, see the [`nationalparkcolors`](https://github.com/katiejolly/nationalparkcolors) package. Palettes converted to `.xml` with [`Convert R palette to QGIS Style XML`](https://gitlab.com/-/snippets/2373633). 
+`NatParksPalettes` is comprised of 30 color palettes, including 12 colorblind-friendly palettes, based on photos of national parks from around the world. Compatible with {ggplot2} in R and QGIS. 
 
-For requests, questions, comments, concerns, etc. you can reach out to me at:<br />
-My Website: [kevinsblake.com](https://kevinsblake.com/)<br /> Twitter: [@kevinsblake](https://twitter.com/kevinsblake/)<br /> LinkedIn: [kevinsblake](https://www.linkedin.com/in/kevinsblake/) <br />E-mail: kevinsblake@gmail.com
+For more National Parks inspired palettes, see the [`nationalparkcolors`](https://github.com/katiejolly/nationalparkcolors) package. Palettes converted to `.xml` with [`Convert R palette to QGIS Style XML`](https://gitlab.com/-/snippets/2373633). 
+
 
 # Content
 [Installation](#install-package)
