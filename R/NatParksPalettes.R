@@ -5,7 +5,7 @@
 #'
 #' Use names(NatParksPalettes) to return all possible palette names. Current choices are:
 #' \code{Acadia}, \code{Arches}, \code{Arches2}, \code{Banff}, \code{Bryce Canyon},
-#' \code{CapitolReef}, \code{Charmonix}, \code{Cuyahoga}, \code{DeathValley}, \code{Denali}, 
+#' \code{CapitolReef}, \code{Chamonix}, \code{Cuyahoga}, \code{DeathValley}, \code{Denali}, 
 #' \code{Everglades}, \code{Glacier}, \code{GrandCanyon}, \code{Halekala}, \code{IguazuFalls}, 
 #' \code{KingsCanyon}, \code{LakeNakuru}, \code{Olympic}, \code{Redwood}, \code{RockyMtn}, 
 #' \code{Saguaro}, \code{SmokyMtns}, \code{SouthDowns}, \code{Torres}, \code{Triglav}, 
@@ -20,7 +20,7 @@ NatParksPalettes <- list(
   Banff = list(c("#006475", "#00A1B7", "#55CFD8", "#586028", "#898928", "#616571", "#9DA7BF"), c(2, 5, 1, 6, 3, 7, 4), colorblind=FALSE),
   BryceCanyon = list(c("#882314", "#C0532B", "#CF932C", "#674D53", "#8C86A0", "#724438", "#D5AB85"), c(1, 5, 2, 7, 4, 3, 6), colorblind=FALSE),
   CapitolReef = list(c("#291919", "#532A34", "#7C5467", "#878195", "#AEB2B7", "#D4D9DD"), c(1, 2, 3, 4, 5, 6), colorblind=TRUE),
-  Charmonix = list(c("#008FF8", "#B6AA0D", "#E2C2A2", "#E23B0E", "#F2C621", "#196689"), c(1, 2, 3, 4, 5, 6), colorblind=FALSE),
+  Chamonix = list(c("#008FF8", "#B6AA0D", "#E2C2A2", "#E23B0E", "#F2C621", "#196689"), c(1, 2, 3, 4, 5, 6), colorblind=FALSE),
   CraterLake = list(c("#1D4A79", "#794C23", "#6B7444", "#6089B5", "#BF9785", "#275E4D", "#807B7F"), c(1, 2, 3, 4, 5, 6, 7), colorblind=FALSE),
   Cuyahoga = list(c("#E07529", "#FAAE32", "#7F7991", "#A84A00", "#5D4F36", "#B39085"), c(1, 2, 3, 4, 5, 6), colorblind=TRUE),
   DeathValley = list(c("#8C2B0E", "#C5692D", "#FEB359", "#132F5B", "#435F90", "#68434E", "#B47E83"), c(1, 5, 7, 2, 6, 3, 4), colorblind=TRUE),
@@ -184,7 +184,7 @@ colorblind_palettes <- c("Acadia", "Arches", "Arches2", "CapitolReef", "Cuyahoga
 #'
 #' @param palette_name Name of Palette. Choices are:
 #' \code{Acadia}, \code{Arches}, \code{Arches2}, \code{Banff}, \code{Bryce Canyon},
-#' \code{CapitolReef}, \code{Charmonix}, \code{Cuyahoga}, \code{DeathValley}, \code{Denali}, 
+#' \code{CapitolReef}, \code{Chamonix}, \code{Cuyahoga}, \code{DeathValley}, \code{Denali}, 
 #' \code{Everglades}, \code{Glacier}, \code{GrandCanyon}, \code{Halekala}, \code{IguazuFalls}, 
 #' \code{KingsCanyon}, \code{LakeNakuru}, \code{Olympic}, \code{Redwood}, \code{RockyMtn}, 
 #' \code{Saguaro}, \code{SmokyMtns}, \code{SouthDowns}, \code{Torres}, \code{Triglav}, 
@@ -216,7 +216,7 @@ colorblind.friendly <- function(palette_name){
 #'
 #' @param name Name of Palette. Choices are:
 #' \code{Acadia}, \code{Arches}, \code{Arches2}, \code{Banff}, \code{Bryce Canyon},
-#' \code{CapitolReef}, \code{Charmonix}, \code{Cuyahoga}, \code{DeathValley}, \code{Denali}, 
+#' \code{CapitolReef}, \code{Chamonix}, \code{Cuyahoga}, \code{DeathValley}, \code{Denali}, 
 #' \code{Everglades}, \code{Glacier}, \code{GrandCanyon}, \code{Halekala}, \code{IguazuFalls}, 
 #' \code{KingsCanyon}, \code{LakeNakuru}, \code{Olympic}, \code{Redwood}, \code{RockyMtn}, 
 #' \code{Saguaro}, \code{SmokyMtns}, \code{SouthDowns}, \code{Torres}, \code{Triglav}, 
@@ -260,7 +260,8 @@ scale_color_natparks_d <- function(name, direction=1, override.order=FALSE, ...)
   }
   
   discrete_scale(aesthetics = "colour", scale_name="natparks_d",
-                 palette = natparks.pals.disc(name=name, direction=direction, override.order=override.order))
+                 palette = natparks.pals.disc(name=name, direction=direction, override.order=override.order),
+                 ...)
 }
 
 #' NatParksPalettes for plotting with ggplot2
@@ -270,7 +271,7 @@ scale_color_natparks_d <- function(name, direction=1, override.order=FALSE, ...)
 #'
 #' @param name Name of Palette. Choices are:
 #' \code{Acadia}, \code{Arches}, \code{Arches2}, \code{Banff}, \code{Bryce Canyon},
-#' \code{CapitolReef}, \code{Charmonix}, \code{Cuyahoga}, \code{DeathValley}, \code{Denali}, 
+#' \code{CapitolReef}, \code{Chamonix}, \code{Cuyahoga}, \code{DeathValley}, \code{Denali}, 
 #' \code{Everglades}, \code{Glacier}, \code{GrandCanyon}, \code{Halekala}, \code{IguazuFalls}, 
 #' \code{KingsCanyon}, \code{LakeNakuru}, \code{Olympic}, \code{Redwood}, \code{RockyMtn}, 
 #' \code{Saguaro}, \code{SmokyMtns}, \code{SouthDowns}, \code{Torres}, \code{Triglav}, 
@@ -313,7 +314,8 @@ scale_fill_natparks_d <- function(name, direction=1, override.order=FALSE, ...){
   }
   
   discrete_scale(aesthetics = "fill", scale_name="natparks_d",
-                 palette = natparks.pals.disc(name=name, direction=direction, override.order=override.order))
+                 palette = natparks.pals.disc(name=name, direction=direction, override.order=override.order),
+                 ...)
 }
 
 
@@ -324,7 +326,7 @@ scale_fill_natparks_d <- function(name, direction=1, override.order=FALSE, ...){
 #'
 #' @param name Name of Palette. Choices are:
 #' \code{Acadia}, \code{Arches}, \code{Arches2}, \code{Banff}, \code{Bryce Canyon},
-#' \code{CapitolReef}, \code{Charmonix}, \code{Cuyahoga}, \code{DeathValley}, \code{Denali}, 
+#' \code{CapitolReef}, \code{Chamonix}, \code{Cuyahoga}, \code{DeathValley}, \code{Denali}, 
 #' \code{Everglades}, \code{Glacier}, \code{GrandCanyon}, \code{Halekala}, \code{IguazuFalls}, 
 #' \code{KingsCanyon}, \code{LakeNakuru}, \code{Olympic}, \code{Redwood}, \code{RockyMtn}, 
 #' \code{Saguaro}, \code{SmokyMtns}, \code{SouthDowns}, \code{Torres}, \code{Triglav}, 
@@ -347,7 +349,8 @@ scale_color_natparks_c <- function(name, direction=1, ...){
     stop("Direction not valid. Please use 1 for standard palette or -1 for reversed palette.")
   }
   
-  scale_color_gradientn(colors=natparks.pals(name=name, direction=direction, override.order = F))
+  scale_color_gradientn(colors=natparks.pals(name=name, direction=direction, override.order = F),
+                        ...)
 }
 
 
@@ -358,7 +361,7 @@ scale_color_natparks_c <- function(name, direction=1, ...){
 #'
 #' @param name Name of Palette. Choices are:
 #' \code{Acadia}, \code{Arches}, \code{Arches2}, \code{Banff}, \code{Bryce Canyon},
-#' \code{CapitolReef}, \code{Charmonix}, \code{Cuyahoga}, \code{DeathValley}, \code{Denali}, 
+#' \code{CapitolReef}, \code{Chamonix}, \code{Cuyahoga}, \code{DeathValley}, \code{Denali}, 
 #' \code{Everglades}, \code{Glacier}, \code{GrandCanyon}, \code{Halekala}, \code{IguazuFalls}, 
 #' \code{KingsCanyon}, \code{LakeNakuru}, \code{Olympic}, \code{Redwood}, \code{RockyMtn}, 
 #' \code{Saguaro}, \code{SmokyMtns}, \code{SouthDowns}, \code{Torres}, \code{Triglav}, 
@@ -376,7 +379,8 @@ scale_fill_natparks_c <- function(name, direction=1, ...){
     stop("Direction not valid. Please use 1 for standard palette or -1 for reversed palette.")
   }
   
-  scale_fill_gradientn(colors=natparks.pals(name=name, direction=direction, override.order = F))
+  scale_fill_gradientn(colors=natparks.pals(name=name, direction=direction, override.order = F),
+                       ...)
 }
 
 
@@ -387,7 +391,7 @@ scale_fill_natparks_c <- function(name, direction=1, ...){
 #'
 #' @param name Name of Palette. Choices are:
 #' \code{Acadia}, \code{Arches}, \code{Arches2}, \code{Banff}, \code{Bryce Canyon},
-#' \code{CapitolReef}, \code{Charmonix}, \code{Cuyahoga}, \code{DeathValley}, \code{Denali}, 
+#' \code{CapitolReef}, \code{Chamonix}, \code{Cuyahoga}, \code{DeathValley}, \code{Denali}, 
 #' \code{Everglades}, \code{Glacier}, \code{GrandCanyon}, \code{Halekala}, \code{IguazuFalls}, 
 #' \code{KingsCanyon}, \code{LakeNakuru}, \code{Olympic}, \code{Redwood}, \code{RockyMtn}, 
 #' \code{Saguaro}, \code{SmokyMtns}, \code{SouthDowns}, \code{Torres}, \code{Triglav}, 
@@ -415,7 +419,7 @@ scale_colour_natparks_d <- scale_color_natparks_d
 #'
 #' @param name Name of Palette. Choices are:
 #' \code{Acadia}, \code{Arches}, \code{Arches2}, \code{Banff}, \code{Bryce Canyon},
-#' \code{CapitolReef}, \code{Charmonix}, \code{Cuyahoga}, \code{DeathValley}, \code{Denali}, 
+#' \code{CapitolReef}, \code{Chamonix}, \code{Cuyahoga}, \code{DeathValley}, \code{Denali}, 
 #' \code{Everglades}, \code{Glacier}, \code{GrandCanyon}, \code{Halekala}, \code{IguazuFalls}, 
 #' \code{KingsCanyon}, \code{LakeNakuru}, \code{Olympic}, \code{Redwood}, \code{RockyMtn}, 
 #' \code{Saguaro}, \code{SmokyMtns}, \code{SouthDowns}, \code{Torres}, \code{Triglav}, 
