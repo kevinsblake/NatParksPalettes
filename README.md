@@ -44,7 +44,7 @@ Then select `Fetch Items`. Choose individual palettes or select `Select All` the
 library(NatParksPalettes)
 
 names(NatParksPalettes)
- [1] "Acadia"      "Arches"      "Arches2"     "Banff"       "BryceCanyon" "CapitolReef" "Charmonix"   "CraterLake"  "Cuyahoga"    "DeathValley" "Denali"     
+ [1] "Acadia"      "Arches"      "Arches2"     "Banff"       "BryceCanyon" "CapitolReef" "Chamonix"   "CraterLake"  "Cuyahoga"    "DeathValley" "Denali"     
 [12] "Everglades"  "Glacier"     "GrandCanyon" "Halekala"    "IguazuFalls" "KingsCanyon" "LakeNakuru"  "Olympic"     "Redwood"     "RockyMtn"    "Saguaro"    
 [23] "SmokyMtns"   "SouthDowns"  "Torres"      "Triglav"     "WindCave"    "Volcanoes"   "Yellowstone" "Yosemite"
 ```
@@ -89,8 +89,8 @@ names(NatParksPalettes)
 -  Colorblind-Friendly
 ***
 
-### Charmonix-Mont-Blanc NP, France
-![Charmonix](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/Charmonix.png)
+### Chamonix-Mont-Blanc NP, France
+![Chamonix](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/Chamonix.png)
 - Aiguille du Midi, [LINK](https://en.chamonix.com/)
 ***
 
