@@ -80,7 +80,6 @@ names(NatParksPalettes)
 ### Bryce Canyon NP, USA
 ![BryceCanyon](https://github.com/kevinsblake/NatParksPalettes/blob/main/photos/BryceCanyon.png)
 - Sunrise Point, [LINK](https://www.brycecanyoncountry.com/bryce-canyon-history/)
--  Colorblind-Friendly
 ***
 
 ### Capitol Reef NP, USA
